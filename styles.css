@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #343a40; /* Dark gray header background */
+    color: #fff; /* White text color */
+}
+
+#services, #testimonials, #cta {
+    text-align: center;
+    padding: 50px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #343a40; /* Dark gray footer background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    header, #services, #testimonials, #cta, footer {
+        padding: 20px 0;
+    }
+}
