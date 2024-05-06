@@ -1,46 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supercharge Your Online Presence</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Supercharge Your Online Presence</h1>
-        <p>Welcome to our digital marketing agency!</p>
-    </header>
+<!-- index.html -->
+<!DOCTYPE html> 
+<html lang="en"> 
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Search Engine Optimization (SEO)</li>
-            <li>Pay-Per-Click (PPC) Advertising</li>
-            <li>Social Media Management</li>
-            <li>Content Marketing</li>
-        </ul>
-    </section>
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<title>Resume Creator</title> 
+	<!-- style link here -->
+	<link rel="stylesheet" href="style.css" /> 
+</head> 
 
-    <section id="testimonials">
-        <h2>Client Testimonials</h2>
-        <div class="testimonial">
-            <p>"Great team, excellent results!"</p>
-            <p><strong>- John Doe, CEO of Company ABC</strong></p>
-        </div>
-        <div class="testimonial">
-            <p>"Highly recommended digital marketing agency!"</p>
-            <p><strong>- Jane Smith, Marketing Director</strong></p>
-        </div>
-    </section>
+<body> 
+	<!-- input container starts here -->
+	<section class="resume-builder"> 
+		<div class="container"> 
+			<h1>Resume Creator</h1> 
+			<div class="resume_container"> 
+				<form class="inputField"> 
+					<input type="text"
+						name="name"
+						placeholder="Your Name"
+						title="Enter Your Name" /> 
+					<input type="text"
+						name="title"
+						placeholder="Title/Sub Heading"
+						title="Enter Title/Sub Heading" /> 
+					<textarea name="work_experience"
+							placeholder="Work Experience"
+							cols="40" rows="3"
+							title="Enter Your Work Experience"> 
+					</textarea> 
+					<textarea name="academic_details"
+							placeholder="Academic Details"
+							cols="40" rows="3"
+							title="Enter Your Academic Details"> 
+					</textarea> 
+					<input type="text" placeholder="Objective"
+						title="Enter Your Objective"
+						name="objective" /> 
+					<textarea name="skills"
+							title="Enter Your Skills"
+							placeholder="Skills" cols="40"
+							rows="3"> 
+					</textarea> 
+					<textarea name="projects"
+							title="Enter Your Projects"
+							placeholder="Projects"
+							cols="40"
+							rows="3"> 
+					</textarea> 
+					<textarea name="achievements"
+							placeholder="Achievements"
+							cols="40" rows="3"
+							title="Enter Your Achievements"> 
+					</textarea> 
+					<textarea name="contact"
+							placeholder="Contact Information"
+							cols="40" rows="3"
+							title="Enter Your Contact Information"> 
+					</textarea> 
+				</form> 
+			</div> 
+			<p class="credit"> 
+				Created by 
+				<a href= 
+"https://auth.geeksforgeeks.org/user/lunatic1/articles"
+				target="_blank"> 
+					lunatic1 
+				</a> 
+			</p> 
+			<p class="tip"> 
+				**You can use markup in the text area for text decoration** 
+			</p> 
+		</div> 
+	</section> 
+	<!-- input container ends here -->
 
-    <section id="cta">
-        <h2>Ready to supercharge your online presence?</h2>
-        <a href="#" class="button">Get Started</a>
-    </section>
+	<!-- output container starts here -->
+	<div class="output_container"></div> 
+	<!-- output container ends here -->
 
-    <footer>
-        <p>Contact us at: info@example.com | Phone: 123-456-7890</p>
-    </footer>
-</body>
+	<!-- preview button -->
+	<button onclick="hide()"> 
+		Generate / Edit 
+	</button> 
+
+	<!-- script link here -->
+	<script src="script.js"></script> 
+</body> 
+
 </html>
